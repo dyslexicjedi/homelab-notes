@@ -6,3 +6,4 @@ This is for personal use, but if they help you. That's great.
 - [Proxmox GPU](proxmox_gpu.md)
 - [LXC GPU Passthrough](lxc_gpu_passthrough.md)
 - [Uptime Container](uptime_ubuntu.md)
+- [local github runner](runner.md)
