@@ -9,3 +9,4 @@ This is for personal use, but if they help you. That's great.
 - [local github runner](runner.md)
 - [Ansible Github Actions](github_ansible_iac.md)
 - [Wireguard](wireguard.md)
+- [DNS Update](dns_update.md)
