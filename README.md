@@ -11,3 +11,6 @@ This is for personal use, but if they help you. That's great.
 - [Wireguard](wireguard.md)
 - [DNS Update](dns_update.md)
 - [Bind9 with DOH](bind9_doh.md)
+
+## Tools
+- [VSCode from tar.gz](visualstudiocode.md)
