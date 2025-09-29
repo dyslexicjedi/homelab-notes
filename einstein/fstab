@@ -1,0 +1,11 @@
+#Data Disks
+UUID=818074ab-c00d-47fb-8d30-76a08322674c /mnt/disk1 xfs rw,noatime,nouuid,attr2,inode64,logbufs=8,logbsize=32k,noquota 0 0
+/dev/sdb2 /mnt/disk2 xfs rw,noatime,nouuid,attr2,inode64,logbufs=8,logbsize=32k,noquota 0 0
+UUID=d3454a84-8e3b-42a2-b444-471f5895efe4 /mnt/disk3 xfs rw,noatime,nouuid,attr2,inode64,logbufs=8,logbsize=32k,noquota 0 0
+
+#Parity
+UUID=ad29f45b-3990-460a-b6e5-c568fcfa9756 /mnt/parity1  ext4    defaults        0       0
+
+#MergerFS
+/mnt/disk* /mnt/vault fuse.mergerfs defaults,nonempty,allow_other,use_ino,cache.files=off,moveonenospc=true,category.create=mfs,dropcacheonclose=true,mi>
+

@@ -1,0 +1,1 @@
+00 1    1 * *   root    /usr/bin/snapraid touch; /usr/bin/snapraid sync -l /tmp/snapsync.log
